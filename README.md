@@ -4,13 +4,13 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Project features
 
-- Semantic HTML5
-- Flexbox
-- Positioning
-- Flat BEM file structure
-- A custom form
-- CSS animation and transform
+-   Semantic HTML5
+-   Flexbox
+-   Positioning
+-   Flat BEM file structure
+-   A custom form
+-   CSS animation and transform
 
 ## Plan on improving the project
 
-Add your ideas here :)
+-   Adjusting the width of the form with margins auto
