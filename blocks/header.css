@@ -41,6 +41,11 @@
     color: #000000;
 }
 
+.nav__link:hover {
+    color: #2f80ed;
+    transition: color ease-in-out 5ms;
+}
+
 .header__title-block {
     row-gap: 28px;
 }
@@ -95,9 +100,14 @@
     margin: 0;
 }
 .header__footer_list {
+    display: block;
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.header__footer_list-item {
+    margin: 0;
 }
 
 .header__footer_adress {

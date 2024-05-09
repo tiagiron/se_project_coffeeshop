@@ -1,0 +1,74 @@
+.menu {
+    background-color: #fff;
+    background-image: url(../images/background_menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__title {
+    margin-top: 100px;
+    margin-bottom: 24px;
+    max-width: 780px;
+    font-size: 44px;
+    line-height: 52px;
+    font-weight: 500;
+}
+.menu__subtitle {
+    max-width: 780px;
+    margin: 0;
+    text-align: center;
+    font-family: "Noto Serif", "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.menu__cards {
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.card {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 540px;
+}
+
+.card__title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 32px 0;
+    padding: 0;
+}
+
+.card__list {
+    margin: 0;
+    padding: 0;
+}
+
+.card__list-item {
+    list-style-type: none;
+    font-family: "Noto Serif", "Times New Roman", Times, serif;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+}
+
+.card__list-divider {
+    flex-grow: 1;
+    border-bottom: 1px solid #000000;
+}
+
+.card__list-item:not(:last-of-type) {
+    margin-bottom: 16px;
+}
