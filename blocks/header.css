@@ -1,49 +1,11 @@
 .header {
-    background-color: #ffffff;
-    background-image: url(../images/background_header.svg);
-    background-position: center;
-    background-size: cover;
+    background: #ffffff url(../images/background_header.svg) center cover;
     display: flex;
     flex-direction: column;
     height: 100vh;
     min-height: 720px;
     max-height: 800px;
-    margin-left: 80px;
     position: relative;
-}
-
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav__logo {
-    position: relative;
-    top: 30px;
-    right: 50px;
-    margin-bottom: 0;
-    height: 39px;
-    width: 105px;
-}
-
-.nav__links {
-    margin: 30px 80px 0 0;
-    padding: 0;
-    display: flex;
-    list-style-type: none;
-    column-gap: 20px;
-    font-weight: 500;
-}
-
-.nav__link {
-    text-decoration: none;
-    color: #000000;
-}
-
-.nav__link:hover {
-    color: #2f80ed;
-    transition: color ease-in-out 5ms;
 }
 
 .header__title-block {
@@ -51,7 +13,7 @@
 }
 
 .header__title {
-    margin-top: 183px;
+    margin: 183px 0 0 80px;
     max-width: 729px;
     font-size: 60px;
     line-height: 72px;
@@ -62,28 +24,29 @@
 .header__span-accent {
     display: block;
     color: #2f80ed;
-    font-family: "Noto Serif", "Times New Roman", Times, serif;
+    font-family: "Noto Serif", "Times New Roman", serif;
     font-style: italic;
     font-weight: normal;
 }
 
 .header__description {
-    font-family: "Noto Serif", "Times New Roman", Times, serif;
+    font-family: "Noto Serif", "Times New Roman", serif;
     max-width: 683px;
     font-size: 20px;
     line-height: 30px;
+    margin: 28px 0 0 80px;
 }
 
 .header__image {
     position: absolute;
-    width: 646px;
-    height: 568px;
+    max-width: 646px;
+    max-height: 568px;
     top: 124px;
     right: 5px;
 }
 
 .header__footer {
-    margin: auto 80px 40px 0;
+    margin: auto 80px 40px 80px;
     display: flex;
     color: #838383;
     justify-content: space-between;
@@ -91,25 +54,7 @@
     font-weight: 500;
 }
 
-.header__footer_content_hours {
-    display: block;
-    padding: 0;
-    margin: 0;
-}
-.header__footer_heading {
-    margin: 0;
-}
-.header__footer_list {
-    display: block;
+.header__paragraph {
     margin: 0;
     padding: 0;
-    list-style-type: none;
-}
-
-.header__footer_list-item {
-    margin: 0;
-}
-
-.header__footer_adress {
-    margin: 0;
 }

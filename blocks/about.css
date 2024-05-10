@@ -32,16 +32,15 @@
 .about__content {
     margin: 119px 80px 173px 0;
     max-width: 660px;
-    font-family: "Noto Serif", "Times New Roman", Times, serif;
+    font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .about__paragraph {
-    margin: 0;
-    padding: 0;
+    margin: 0 0 20px 0;
 }
 
-.about__paragraph:not(:last-of-type) {
-    margin: 0 0 20px 0;
+.about__paragraph:last-of-type {
+    margin: 0;
 }
 
 .about__circle {
