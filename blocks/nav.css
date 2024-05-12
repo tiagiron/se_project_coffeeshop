@@ -1,7 +1,6 @@
 .nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 30px 80px 0 30px;
 }
 
@@ -11,6 +10,7 @@
 }
 
 .nav__links {
+    margin: 0;
     padding: 0;
     display: flex;
     list-style-type: none;
@@ -25,5 +25,5 @@
 
 .nav__link:hover {
     color: #2f80ed;
-    transition: color ease-in-out 5ms;
+    transition: color ease-in-out 8ms;
 }

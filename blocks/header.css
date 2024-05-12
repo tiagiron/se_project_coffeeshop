@@ -8,10 +8,6 @@
     position: relative;
 }
 
-.header__title-block {
-    row-gap: 28px;
-}
-
 .header__title {
     margin: 183px 0 0 80px;
     max-width: 729px;
@@ -19,6 +15,7 @@
     line-height: 72px;
     letter-spacing: -0.6px;
     font-weight: 500;
+    z-index: 1;
 }
 
 .header__span-accent {
@@ -35,6 +32,7 @@
     font-size: 20px;
     line-height: 30px;
     margin: 28px 0 0 80px;
+    z-index: 1;
 }
 
 .header__image {
@@ -52,6 +50,7 @@
     justify-content: space-between;
     align-items: flex-end;
     font-weight: 500;
+    z-index: 1;
 }
 
 .header__paragraph {
